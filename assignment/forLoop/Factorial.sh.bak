@@ -1,0 +1,10 @@
+#!/bin/bash -x
+
+num=5
+fact=1
+
+for (( i=1; i<=num; i++ ))
+do
+	fact=`expr $fact \* $i`
+done
+echo  "Factorial of a number is $fact"
